@@ -23,16 +23,42 @@ body{
     font-family: var(--font-letter)
 }
 
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
 /* --- Header ---  */
 
 header{
-    /* Modelo de caja  */
+    /* modelo de caja  */
     width: 100%;
     height: 60px;
 }
 
 header nav{
-    /* Modelo de caja  */
+    /* modelo de caja  */
     display: flex;
     justify-content: flex-end;
+}
+
+header  nav .nav-right-section {
+    /* modelo de caja  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: auto;
+   
+
+    /* visual */
+    list-style: none;
+}
+
+nav .nav-right-section a{
+    /* posicionamiento  */
+    margin: 10px;
+
+    /* tipografia   */
+    color: #000000;
 }
