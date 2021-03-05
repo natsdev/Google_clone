@@ -88,6 +88,18 @@ nav .nav-right-section img{
 main{
     /* box model  */
     margin-top: 150px;
+
+    /* typography */
     text-align: center;
-    
+}
+
+main .main-logo{
+    /* box model  */
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    width: 272px;
 }
