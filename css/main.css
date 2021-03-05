@@ -1,8 +1,8 @@
-*{ 
+/* *{ 
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
+} */
 
 html{
     font-size: 62.5%;
@@ -37,13 +37,13 @@ header{
 }
 
 header nav{
-    /* modelo de caja  */
+    /* box model */
     display: flex;
     justify-content: flex-end;
 }
 
 header  nav .nav-right-section {
-    /* modelo de caja  */
+    /* box model */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,9 +56,38 @@ header  nav .nav-right-section {
 }
 
 nav .nav-right-section a{
-    /* posicionamiento  */
+    /* position  */
     margin: 10px;
 
-    /* tipografia   */
+    /* typography   */
     color: #000000;
+}
+
+nav .nav-right-section .menu-icon{
+    /* box model */
+    width: 25px;
+    height: 25px;
+
+    /* visual */
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+nav .nav-right-section img{
+    /* Position  */
+    margin-left: 10px;
+
+    /* Visual */
+    border-radius: 50%;
+}
+
+/* --- main ---  */
+
+main{
+    /* box model  */
+    margin-top: 150px;
+    text-align: center;
+    
 }
