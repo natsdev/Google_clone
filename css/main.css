@@ -206,3 +206,55 @@ main .main-buttons button:hover{
     border: solid 1px #c6c6c6;
     box-shadow: 0 1px 1px  #000001;
 }
+
+/*--- footer ---*/
+
+footer{
+    /* position */
+    position: absolute;
+    bottom: 0;
+
+    /* typography */
+    font-size: 1.3rem;
+
+    /* box model */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+
+    /* visual */
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+
+footer ul{
+    /* position */
+    margin: 10px;
+    padding-left: 0;
+
+    /* typography */
+    list-style: none;
+
+    /* box model */
+    display: flex;
+}
+
+footer .footer-left{
+    /* box model */
+    justify-self: left;
+}
+
+footer .footer-right{
+    /* box model */
+    justify-self: right;
+}
+
+footer ul li a{
+    /* position */
+    margin: 10px;
+
+    /* typography */
+    color: #5f6368;
+}
